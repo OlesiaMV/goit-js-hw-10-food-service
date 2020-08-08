@@ -13,8 +13,8 @@ const Theme = {
 
 const refs = {
   body: document.querySelector('body'),
-  menuList: document.querySelector('ul#menu'),
-  themeCheckbox: document.querySelector('#theme-switch-control'),
+  menuList: document.querySelector('ul.js-menu'),
+  themeCheckbox: document.querySelector('.js-switch-input'),
 };
 
 const setInitialTheme = () => {
